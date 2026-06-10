@@ -1,0 +1,398 @@
+{
+  "mapset" : "COUSR01",
+  "map" : "COUSR1A",
+  "size" : {
+    "rows" : 24,
+    "cols" : 80
+  },
+  "aidKeys" : [ "ENTER", "PF3", "PF4", "PF12" ],
+  "pagination" : null,
+  "cursorField" : null,
+  "messages" : [ ],
+  "fields" : [ {
+    "name" : "_label_1",
+    "row" : 1,
+    "col" : 1,
+    "length" : 5,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Tran:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "TRNNAME",
+    "row" : 1,
+    "col" : 7,
+    "length" : 4,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "FSET", "NORM" ],
+    "binding" : {
+      "programField" : "trnnameo",
+      "direction" : "BOTH",
+      "inputProgramField" : "trnnamei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "TITLE01",
+    "row" : 1,
+    "col" : 21,
+    "length" : 40,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "FSET", "NORM" ],
+    "binding" : {
+      "programField" : "title01o",
+      "direction" : "BOTH",
+      "inputProgramField" : "title01i"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_2",
+    "row" : 1,
+    "col" : 65,
+    "length" : 5,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Date:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "CURDATE",
+    "row" : 1,
+    "col" : 71,
+    "length" : 8,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "mm/dd/yy",
+    "attributes" : [ "ASKIP", "FSET", "NORM" ],
+    "binding" : {
+      "programField" : "curdateo",
+      "direction" : "BOTH",
+      "inputProgramField" : "curdatei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_3",
+    "row" : 2,
+    "col" : 1,
+    "length" : 5,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Prog:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "PGMNAME",
+    "row" : 2,
+    "col" : 7,
+    "length" : 8,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "FSET", "NORM" ],
+    "binding" : {
+      "programField" : "pgmnameo",
+      "direction" : "BOTH",
+      "inputProgramField" : "pgmnamei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "TITLE02",
+    "row" : 2,
+    "col" : 21,
+    "length" : 40,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "FSET", "NORM" ],
+    "binding" : {
+      "programField" : "title02o",
+      "direction" : "BOTH",
+      "inputProgramField" : "title02i"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_4",
+    "row" : 2,
+    "col" : 65,
+    "length" : 5,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Time:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "CURTIME",
+    "row" : 2,
+    "col" : 71,
+    "length" : 8,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "hh:mm:ss",
+    "attributes" : [ "ASKIP", "FSET", "NORM" ],
+    "binding" : {
+      "programField" : "curtimeo",
+      "direction" : "BOTH",
+      "inputProgramField" : "curtimei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_5",
+    "row" : 4,
+    "col" : 35,
+    "length" : 9,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Add User",
+    "attributes" : [ "ASKIP", "BRT" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "_label_6",
+    "row" : 8,
+    "col" : 6,
+    "length" : 11,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "First Name:",
+    "attributes" : [ ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "FNAME",
+    "row" : 8,
+    "col" : 18,
+    "length" : 20,
+    "protected" : false,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "FSET", "IC", "NORM", "UNPROT" ],
+    "binding" : {
+      "programField" : "fnameo",
+      "direction" : "BOTH",
+      "inputProgramField" : "fnamei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_7",
+    "row" : 8,
+    "col" : 39,
+    "length" : 0,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "_label_8",
+    "row" : 8,
+    "col" : 45,
+    "length" : 10,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Last Name:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "LNAME",
+    "row" : 8,
+    "col" : 56,
+    "length" : 20,
+    "protected" : false,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "FSET", "NORM", "UNPROT" ],
+    "binding" : {
+      "programField" : "lnameo",
+      "direction" : "BOTH",
+      "inputProgramField" : "lnamei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_9",
+    "row" : 8,
+    "col" : 77,
+    "length" : 0,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "_label_10",
+    "row" : 11,
+    "col" : 6,
+    "length" : 8,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "User ID:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "USERID",
+    "row" : 11,
+    "col" : 15,
+    "length" : 8,
+    "protected" : false,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "FSET", "NORM", "UNPROT" ],
+    "binding" : {
+      "programField" : "userido",
+      "direction" : "BOTH",
+      "inputProgramField" : "useridi"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_11",
+    "row" : 11,
+    "col" : 24,
+    "length" : 8,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "(8 Char)",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "_label_12",
+    "row" : 11,
+    "col" : 45,
+    "length" : 9,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "Password:",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "PASSWD",
+    "row" : 11,
+    "col" : 55,
+    "length" : 8,
+    "protected" : false,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "DRK", "FSET", "UNPROT" ],
+    "binding" : {
+      "programField" : "passwdo",
+      "direction" : "BOTH",
+      "inputProgramField" : "passwdi"
+    },
+    "label" : false,
+    "secret" : true
+  }, {
+    "name" : "_label_13",
+    "row" : 11,
+    "col" : 64,
+    "length" : 8,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "(8 Char)",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "_label_14",
+    "row" : 14,
+    "col" : 6,
+    "length" : 11,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "User Type: ",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "USRTYPE",
+    "row" : 14,
+    "col" : 17,
+    "length" : 1,
+    "protected" : false,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "FSET", "NORM", "UNPROT" ],
+    "binding" : {
+      "programField" : "usrtypeo",
+      "direction" : "BOTH",
+      "inputProgramField" : "usrtypei"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_15",
+    "row" : 14,
+    "col" : 19,
+    "length" : 17,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "(A=Admin, U=User)",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  }, {
+    "name" : "ERRMSG",
+    "row" : 23,
+    "col" : 1,
+    "length" : 78,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "",
+    "attributes" : [ "ASKIP", "BRT", "FSET" ],
+    "binding" : {
+      "programField" : "errmsgo",
+      "direction" : "BOTH",
+      "inputProgramField" : "errmsgi"
+    },
+    "label" : false,
+    "secret" : false
+  }, {
+    "name" : "_label_16",
+    "row" : 24,
+    "col" : 1,
+    "length" : 43,
+    "protected" : true,
+    "numeric" : false,
+    "initial" : "ENTER=Add User  F3=Back  F4=Clear  F12=Exit",
+    "attributes" : [ "ASKIP", "NORM" ],
+    "binding" : null,
+    "label" : true,
+    "secret" : false
+  } ],
+  "indicatorMap" : { }
+}

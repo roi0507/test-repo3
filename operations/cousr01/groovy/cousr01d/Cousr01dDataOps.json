@@ -1,0 +1,69 @@
+{
+  "programId" : "COUSR01D",
+  "operations" : [ {
+    "id" : "cousr01d.insertUsersec",
+    "methodName" : "insertUsersec",
+    "kind" : "EXECUTE",
+    "sql" : "INSERT INTO USERSEC (USR_ID, USR_FNAME, USR_LNAME, USR_PWD, USR_TYPE) VALUES (:SEC-USR-ID, :SEC-USR-FNAME, :SEC-USR-LNAME, :SEC-USR-PWD, :SEC-USR-TYPE)",
+    "params" : [ {
+      "name" : "secUsrId",
+      "type" : null,
+      "sourceName" : "SEC-USR-ID"
+    }, {
+      "name" : "secUsrFname",
+      "type" : null,
+      "sourceName" : "SEC-USR-FNAME"
+    }, {
+      "name" : "secUsrLname",
+      "type" : null,
+      "sourceName" : "SEC-USR-LNAME"
+    }, {
+      "name" : "secUsrPwd",
+      "type" : null,
+      "sourceName" : "SEC-USR-PWD"
+    }, {
+      "name" : "secUsrType",
+      "type" : null,
+      "sourceName" : "SEC-USR-TYPE"
+    } ],
+    "resultColumns" : null,
+    "sourceLine" : 591,
+    "sourceHint" : "EXEC SQL INSERT INTO USERSEC (USR_ID, USR_FNAME, USR_LNAME, USR_PWD, USR_TYPE) VALUES (:SEC-USR-ID, :SEC-USR-FNAME, :SEC-USR-LNAME, :SEC-USR-PWD, :SEC-USR-TYPE) END-EXEC"
+  }, {
+    "id" : "cousr01d.commitOperation",
+    "methodName" : "commitOperation",
+    "kind" : "COMMIT",
+    "sql" : null,
+    "params" : [ ],
+    "resultColumns" : null,
+    "sourceLine" : 605,
+    "sourceHint" : "EXEC SQL COMMIT END-EXEC"
+  }, {
+    "id" : "cousr01d.rollbackOperation",
+    "methodName" : "rollbackOperation",
+    "kind" : "ROLLBACK",
+    "sql" : null,
+    "params" : [ ],
+    "resultColumns" : null,
+    "sourceLine" : 617,
+    "sourceHint" : "EXEC SQL ROLLBACK END-EXEC"
+  }, {
+    "id" : "cousr01d.rollbackOperation2",
+    "methodName" : "rollbackOperation2",
+    "kind" : "ROLLBACK",
+    "sql" : null,
+    "params" : [ ],
+    "resultColumns" : null,
+    "sourceLine" : 617,
+    "sourceHint" : "EXEC SQL ROLLBACK END-EXEC"
+  }, {
+    "id" : "cousr01d.rollbackOperation3",
+    "methodName" : "rollbackOperation3",
+    "kind" : "ROLLBACK",
+    "sql" : null,
+    "params" : [ ],
+    "resultColumns" : null,
+    "sourceLine" : 624,
+    "sourceHint" : "EXEC SQL ROLLBACK END-EXEC"
+  } ]
+}
